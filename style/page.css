@@ -1,5 +1,5 @@
 html, body{
-  font-family 'Roboto Mono', monospace;
+  letter-spacing: 6px;
 }
 	/* Style for our header texts
 	* --------------------------------------- */
@@ -81,6 +81,8 @@ html, body{
     }
 
     #typedtext{
+      padding-left: 6%;
+      padding-right: 6%;
         top: 50%;
         width: 100%;
         z-index: 99;

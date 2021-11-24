@@ -1,7 +1,6 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-    "We are a crew of digital artists comprised of software developing,", 
-    "graphics & web designing skills now at your service."
+    "We are a crew of digital artists comprised of software developing,graphics & web designing skills now at your service."
     );
     var iSpeed = 100; // time delay of print out
     var iIndex = 0; // start printing array at this posision
