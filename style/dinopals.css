@@ -1,0 +1,16 @@
+.container1 {
+  z-index: 99;
+  padding-bottom: 5%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+  color: #fafafa;
+}
+.dud {
+  color: #757575;
+}
