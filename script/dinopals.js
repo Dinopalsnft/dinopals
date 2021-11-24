@@ -70,7 +70,7 @@ class TextScramble {
   let counter = 0
   const next = () => {
     fx.setText(phrases[counter]).then(() => {
-      setTimeout(next, 2000)
+      setTimeout(next, 4000)
     })
     counter = (counter + 1) % phrases.length
   }
