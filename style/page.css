@@ -72,15 +72,16 @@ html, body{
 	}
 
     #social{
+      margin-top: 4%;
         width: 100%;
         z-index: 99;
         color:white;
         align-items: center;
-        text-align: center;
-        padding-top: 2%;
+        text-align: center; 
     }
 
     #typedtext{
+      margin-top: 4%;
       padding-left: 6%;
       padding-right: 6%;
         top: 50%;
@@ -102,12 +103,17 @@ html, body{
     }
 
     /*social hover*/
-    
     .blink-text-menu {
+
+      height: auto;
       display: flex;
       flex-direction: row;
       list-style-type: none;
       justify-content:center ;
+    }
+    .blink-text-menu li{
+      display: flex;
+      flex-direction: row;
     }
     .blink-text-menu li a {
       position: relative;
@@ -115,6 +121,11 @@ html, body{
       padding: 6px;
       color: white;
       text-decoration: none;
+      border: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: auto;
+      padding-right: auto;
     }
     .blink-text-menu li a span {
       position: relative;
@@ -141,6 +152,9 @@ html, body{
     /*Vertical Line*/
     .vl {
         z-index: 99;
-        border-left: 1px solid white;
+        padding-left: 1%;
+        padding-right: 1%;
+        display: flex;
+        justify-content: center;
       }
 
