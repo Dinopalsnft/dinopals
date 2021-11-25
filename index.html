@@ -44,9 +44,27 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
-	<!--<style>
-		@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
-	</style>-->
+
+	<style>
+		@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .text {
+	width: 100%;
+  }
+  .blink-text-menu{
+	  flex-direction: column;
+	  align-items: center;
+
+  }
+  .vl{
+	visibility: hidden;
+  }
+}
+div{
+/* 	border: 1px solid white; */
+}
+	</style>
+
 </head>
 
 <body style="font-family: 'Roboto Mono', monospace;color: white;">
@@ -60,15 +78,15 @@
 		}
 	</script>
 
-<!-- 	 -->
+	<!-- 	 -->
 	<div id="fullpage">
 		<div class="section" id="section0">
 			<div id="intro">
 				<div class="container1">
-					<h1 class="text"></h1>
+					<h1 class="text" style=""></h1>
 				</div>
-				<div id="typedtext" ></div>
-				<div id="social" >
+				<div id="typedtext"></div>
+				<div id="social">
 					<ul class="blink-text-menu">
 						<li><a href="https://twitter.com/Dino_Pals" target="_blank">Twitter</a></li>
 						<span class="vl">|</span>

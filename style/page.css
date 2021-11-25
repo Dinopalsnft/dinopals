@@ -30,8 +30,7 @@ html, body{
 		background-attachment: fixed;
 	}
 
-	/* Defining each sectino background and styles
-	* --------------------------------------- */
+	/* Defining each sectino background and styles --------------------------------------- */
 	#section0{
 		background-color: black;
 	}
@@ -51,10 +50,9 @@ html, body{
 	#section3 h1{
 		color: #000;
 	}
+	/* ---------------------------------------Defining each sectino background and styles */
 
-
-	/*Adding background for the slides
-	* --------------------------------------- */
+	/*Adding background for the slides--------------------------------------- */
 	#slide1{
 		background-image: url(../imgs/4.jpg);
 		padding: 6% 0 0 0;
@@ -63,14 +61,13 @@ html, body{
 		background-image: url(../imgs/5.jpg);
 		padding: 6% 0 0 0;
 	}
+	/*--------------------------------------- Adding background for the slides*/
 
 
-	/* Bottom menu
-	* --------------------------------------- */
+	/* Bottom menu--------------------------------------- */
 	#infoMenu li a {
 		color: #fff;
 	}
-
     #social{
       margin-top: 4%;
         width: 100%;
@@ -79,7 +76,6 @@ html, body{
         align-items: center;
         text-align: center; 
     }
-
     #typedtext{
       margin-top: 4%;
       padding-left: 6%;
@@ -89,7 +85,6 @@ html, body{
         z-index: 99;
         color:white;
     }
-
     #intro{
         align-items: center;
         height: 100%;
@@ -102,9 +97,8 @@ html, body{
         align-items: center;
     }
 
-    /*social hover*/
+    /*social hover-------------------------------------*/
     .blink-text-menu {
-
       height: auto;
       display: flex;
       flex-direction: row;
@@ -149,6 +143,8 @@ html, body{
       opacity: 1;
       transform: translateX(0);
     }
+   /*-------------------------------------social hover end*/
+
     /*Vertical Line*/
     .vl {
         z-index: 99;
