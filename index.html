@@ -45,29 +45,90 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
 
-	<style>
-		@media only screen and (max-width:500px) {
+<style>
+		@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:600px) {
+	.text {
+	font-size: 10px;
+  }
+  #typedtext{
+	font-size: 20px;
+  }
+  #social{
+	font-size: 20px;
+  }
   /* For mobile phones: */
-  .text {
-	width: 100%;
-  }
-  .blink-text-menu{
-	  flex-direction: column;
-	  align-items: center;
+}
+@media screen and (orientation: portrait) {
+	@media only screen and (max-width:850px){
+			.text {
+			font-size: 100px;
+		}
+		#typedtext{
+			font-size: 30px;
+		}
+		#social{
+			font-size: 30px;
+		}
+	}
+	/* smart phones: */
+	@media only screen and (max-width:1080px){
+		.text {
+			font-size: 150px;
+		}
+		.blink-text-menu{
+			flex-direction: column;
+			align-items: center;
+		}
+		.vl{
+			visibility: hidden;
+		}
+		#typedtext{
+			font-size: 40px;
+		}
+		#social{
+			font-size: 40px;
+		}
+	}
+}
+@media screen and (orientation: landscape) {
+	@media only screen and (max-width:1920px){
+		.text {
+			font-size: 150px;
+		}
+		.blink-text-menu{
+			flex-direction: column;
+			align-items: center;
+		}
+		.vl{
+			visibility: hidden;
+		}
+		#typedtext{
+			font-size: 40px;
+		}
+		#social{
+			font-size: 40px;
+		}
+	}
+}
 
-  }
-  .vl{
-	visibility: hidden;
-  }
-}
-div{
-/* 	border: 1px solid white; */
-}
-	</style>
+/* div{
+	border: 1px solid white;
+} */
+</style>
 
 </head>
 
-<body style="font-family: 'Roboto Mono', monospace;color: white;">
+<body style="font-family: 'Roboto Mono', monospace;">
 	<script>
 		window.console = window.console || function (t) { };
 	</script>
@@ -83,7 +144,7 @@ div{
 		<div class="section" id="section0">
 			<div id="intro">
 				<div class="container1">
-					<h1 class="text" style=""></h1>
+					<h1 class="text"></h1>
 				</div>
 				<div id="typedtext"></div>
 				<div id="social">
